@@ -1,0 +1,13 @@
+:root {
+    --green: #D8E2DC;
+    --green-experimental: #b2e4c6;
+    --champagne-pink: #FFE5D9;
+    --light-pink: #FFCAD4;
+    --pink: #F4ACB7;
+    --broun-pink: #9D8189;
+}
+
+* {
+    direction: rtl;
+    margin: 0;
+}

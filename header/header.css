@@ -1,0 +1,21 @@
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content max-content auto;
+    align-items: center;
+    grid-gap: 1em;
+    background-color: var(--pink);
+}
+
+header * {
+    margin: .5rem;
+}
+
+header h3 {
+    align-self: end;
+    margin-right: -.5rem;
+}
+
+header p {
+    justify-self: end;
+}
