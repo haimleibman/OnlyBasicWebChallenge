@@ -1,13 +1,39 @@
 :root {
-    --green: #D8E2DC;
-    --green-experimental: #b2e4c6;
+    --green-gray: #D8E2DC;
+    --green: #b2e4c6;
     --champagne-pink: #FFE5D9;
     --light-pink: #FFCAD4;
     --pink: #F4ACB7;
     --broun-pink: #9D8189;
+
+    --green-gray-values: 216 226 220;
+    --green-values: 178 228 198;
+    --champagne-pink-values: 255 229 217;
+    --light-pink-values: 255 202 212;
+    --pink-values: 244 172 183;
+    --broun-pink-values: 157 129 137;
 }
 
 * {
     direction: rtl;
     margin: 0;
+    outline: none;
+    
+    font-family: 'Assistant', sans-serif;
+    font-weight: normal;
 }
+
+*::-webkit-scrollbar {
+    width: .5em;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--green-gray);
+  border-radius: 2em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 2em;
+}
+  
