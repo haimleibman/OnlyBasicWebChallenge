@@ -3,7 +3,7 @@ form {
     flex-direction: column;
     
     width: min-content;
-    height: -webkit-fill-available;
+    height: fit-content;
 
     margin: 1em auto;
 
@@ -30,8 +30,44 @@ input {
     padding: .5em .2em .1em .2em;
 }
 
+label {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    display: block;
+    background: var(--light-pink);
+    padding: 2px;
+    box-shadow: none;
+    border-radius: .2em;
+}
+
 input:hover, input:focus {
     box-shadow: 0px 1px var(--broun-pink);
+}
+
+input[type="checkbox"]:hover, input[type="checkbox"]:focus {
+    box-shadow: 1px 1px var(--broun-pink);
+}
+
+input[type="checkbox"]:checked {
+    background: var(--pink);
+    box-shadow: none;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    background: url("check-solid.svg") center no-repeat;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
