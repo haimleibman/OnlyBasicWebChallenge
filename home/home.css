@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-auto-flow: column;
+    height: 100%;
+}
+
+aside { 
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 100%;
+    background: var(--light-pink);
+    box-shadow: -1px 0px 5px 0px var(--broun-pink);
+    z-index: -1;
+    overflow: hidden;
+}
+
+a {
+    width: 100%;
+    padding: 1em 2em;
+    box-shadow: 1px 1px var(--pink);
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover, a:active {
+    background: var(--pink);   
+    box-shadow: inset 1px 0 0 1px var(--broun-pink);
+}

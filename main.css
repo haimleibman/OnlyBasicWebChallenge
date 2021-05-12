@@ -19,7 +19,7 @@ body {
     height: 4em;
 }
 
-.loginFrame {
+.bodyFrame {
     width: 100%;
     height: 100%;
 }
@@ -29,4 +29,3 @@ footer {
     padding: 1em;
     background-color: var(--green-gray);
 }
-

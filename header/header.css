@@ -2,8 +2,10 @@ header {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: max-content max-content auto;
-    align-items: center;
+    align-items: end;
     grid-gap: 1em;
+
+    height: 4em;
     background-color: var(--pink);
 }
 
@@ -12,10 +14,10 @@ header * {
 }
 
 header h3 {
-    align-self: end;
     margin-right: -.5rem;
 }
 
 header p {
+    align-self: center;
     justify-self: end;
 }
